@@ -2,3 +2,9 @@
 ./gradlew api-test:test
 
 2. Lear Collections, List, Arrays
+
+Start the test app:
+docker-compose -f deploy/docker-compose/docker-compose.yml up -d
+
+Stop the test app:
+docker-compose -f deploy/docker-compose/docker-compose.yml down
