@@ -1,0 +1,4 @@
+1. Run gradle tests from console:
+./gradlew api-test:test
+
+2. Lear Collections, List, Arrays

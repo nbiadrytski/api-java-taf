@@ -1,0 +1,33 @@
+Request method:	POST
+%Request URI:	http://0.0.0.0/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "test123",
+    "email": "test@mail.com",
+0    "username": "софия.мясникова"
+}
+HTTP/1.1 200 OK
+Content-Length: 33
+.Content-Type: application/json; charset=utf-8
+$Date: Fri, 08 Jul 2022 14:41:23 GMT
+)Etag: W/"21-pQMAxV6o+mLQUUPy6umwo6HAlrA"
+3Set-Cookie: _TRAEFIK_BACKEND=http://front-end:8079
+tSet-Cookie: logged_in=NyD0Na2TIlGHWIdNauu_UUmGi81Cf7X4; Max-Age=3600; Path=/; Expires=Fri, 08 Jul 2022 15:41:23 GMT
+vSet-Cookie: md.sid=s%3ANyD0Na2TIlGHWIdNauu_UUmGi81Cf7X4.sI5uXeIANJvpvAIEtTjDf86xUR11WvYcW7keEwHvcjM; Path=/; HttpOnly
+X-Powered-By: Express
+
+{
+%    "id": "62c84213ee11cb00017072c6"
+}
+x17:41:23.669 [Test worker] INFO com.socks.api.assertions.AssertableResponse - About to check condition status code: 200
+�17:41:23.692 [Test worker] INFO com.socks.api.assertions.AssertableResponse - About to check condition Body Field [id] not is (null or an empty string)
+62c84213ee11cb00017072c6
