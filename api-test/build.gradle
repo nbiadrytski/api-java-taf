@@ -25,10 +25,16 @@ dependencies {
     implementation 'com.github.javafaker:javafaker:1.0.2'
     implementation 'ch.qos.logback:logback-classic:1.2.11'
     implementation 'ch.qos.logback:logback-core:1.2.11'
+    // https://mvnrepository.com/artifact/org.aeonbits.owner/owner
+    implementation 'org.aeonbits.owner:owner:1.0.12'
+
+
 }
 
 test {
     useTestNG()
+
+    systemProperties System.getProperties()
 
     testLogging {
         events "PASSED", "FAILED", "SKIPPED"
