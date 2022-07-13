@@ -1,3 +1,6 @@
 .idea/
 .gradle/
-/api-test/build/**
+build/
+out/
+*.ipr
+*.iml
