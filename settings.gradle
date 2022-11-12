@@ -1,3 +1,4 @@
 rootProject.name = 'api-java-taf'
 include 'api-test'
+include 'ui-test'
 
